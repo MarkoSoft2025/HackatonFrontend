@@ -4,8 +4,8 @@ import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
 export const metadata: Metadata = {
   title:
-    "UEP Online Attendance Mointoring",
-  description: "This is Next.js Home for TailAdmin Dashboard Template",
+    "UEP Online Attendance Monitoring",
+  description: "A platform for monitoring attendance for events held in UEP online",
 };
 
 export default function Home() {
