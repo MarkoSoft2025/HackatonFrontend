@@ -5,21 +5,82 @@ import React from "react";
 const LandingPage: React.FC = () => {
   return (
     <>
-      <div 
-        className="flex-1 bg-cover bg-center" 
-        style={{ 
-            backgroundImage: "url('/images/UEP-bg.png')", 
-            width: '100%', 
-            height: 'calc(100vh - 3.75rem)'
-        }}
-      >
-
-        <p className="text-white text-shadow-lg text-5xl md:text-8xl md:text-shadow-lg font-bold text-center pt-20 md:pt-40">
+      <div className="flex items-center justify-center bg-cover bg-center" style={{backgroundImage: "url('/images/UEP-bg.png')", width: '100%', height: 'calc(100vh - 3.75rem)'}}>
+        <div className="text-center space-y-6">
+          <h1 className="text-white text-6xl md:text-8xl tracking-wide font-bold mb-25 text-shadow-lg">
             UEP ONLINE ATTENDANCE MONITORING
-        </p>
+          </h1>
+
+          <div className="flex flex-col md:flex-row justify-center items-center space-y-24 md:space-x-24 md:space-y-0">
+            <a
+              href="/signin"
+              className="bg-blue-900 hover:bg-blue-950 text-xl text-white font-bold py-4 px-6 rounded transition duration-300"
+            > 
+              Sign in
+            </a>
+            <a
+              href="/signup"
+              className="bg-blue-900 hover:bg-blue-950 text-xl text-white font-bold py-4 px-6 rounded transition duration-300"
+            >
+              Sign up
+            </a>
+          </div>
+        </div>
       </div>
 
+
       <div className="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10">
+        <div className="relative flex flex-col items-center w-full px-8 lg:px-40 py-12 bg-white min-h-screen">
+          <div className="text-[30px] md:text-[50px] font-bold text-center text-black leading-9 lg:leading-10">
+            Online Attendance Process
+          </div>
+
+          <div className="flex justify-center bg-sky-950 text-white text-[20px] lg:text-[30px] font-semibold py-6 md:py-8 px-8 rounded-lg mt-20 w-full md:w-[100%] text-center">
+            First Timers
+          </div>
+
+          <div className="mt-8 space-y-5 w-full md:w-3/4">
+            <div className="flex items-center justify-start text-justify space-x-4 md:space-x-6">
+              <div className="flex justify-center items-center w-[40px] h-[40px] text-[20px] md:w-[60px] md:h-[60px] md:text-[26px] rounded-full bg-sky-950 text-white font-extrabold">1</div>
+              <div className="text-base md:text-[20px] text-black flex-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis ultricies orci aliquet dictum. Mauris eget mollis ipsum. Maecenas blandit semper massa, nec malesuada lacus scelerisque vel.</div>
+            </div>
+            <div className="flex items-center justify-start text-justify space-x-4 md:space-x-6">
+              <div className="flex justify-center items-center w-[40px] h-[40px] text-[20px] md:w-[60px] md:h-[60px] md:text-[26px] rounded-full bg-sky-950 text-white font-extrabold">2</div>
+              <div className="text-base md:text-[20px] text-black flex-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis ultricies orci aliquet dictum. Mauris eget mollis ipsum. Maecenas blandit semper massa, nec malesuada lacus scelerisque vel.</div>
+            </div>
+            <div className="flex items-center justify-start text-justify space-x-4 md:space-x-6">
+              <div className="flex justify-center items-center w-[40px] h-[40px] text-[20px] md:w-[60px] md:h-[60px] md:text-[26px] rounded-full bg-sky-950 text-white font-extrabold">3</div>
+              <div className="text-base md:text-[20px] text-black flex-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis ultricies orci aliquet dictum. Mauris eget mollis ipsum. Maecenas blandit semper massa, nec malesuada lacus scelerisque vel.</div>
+            </div>
+            <div className="flex items-center justify-start text-justify space-x-4 md:space-x-6">
+              <div className="flex justify-center items-center w-[40px] h-[40px] text-[20px] md:w-[60px] md:h-[60px] md:text-[26px] rounded-full bg-sky-950 text-white font-extrabold">4</div>
+              <div className="text-base md:text-[20px] text-black flex-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis ultricies orci aliquet dictum. Mauris eget mollis ipsum. Maecenas blandit semper massa, nec malesuada lacus scelerisque vel.</div>
+            </div>
+            <div className="flex items-center justify-start text-justify space-x-4 md:space-x-6">
+              <div className="flex justify-center items-center w-[40px] h-[40px] text-[20px] md:w-[60px] md:h-[60px] md:text-[26px] rounded-full bg-sky-950 text-white font-extrabold">5</div>
+              <div className="text-base md:text-[20px] text-black flex-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis ultricies orci aliquet dictum. Mauris eget mollis ipsum. Maecenas blandit semper massa, nec malesuada lacus scelerisque vel.</div>
+            </div>
+          </div>
+
+          <div className="flex justify-center bg-sky-950 text-white text-[20px] lg:text-[30px] font-semibold py-6 md:py-8 px-8 rounded-lg mt-20 w-full md:w-[100%] text-center">
+            Returning Faculty
+          </div>
+
+          <div className="mt-8 space-y-5 w-full md:w-3/4">
+            <div className="flex items-center justify-start text-justify space-x-4 md:space-x-6">
+              <div className="flex justify-center items-center w-[40px] h-[40px] text-[20px] md:w-[60px] md:h-[60px] md:text-[26px] rounded-full bg-sky-950 text-white font-extrabold">1</div>
+              <div className="text-base md:text-[20px] text-black flex-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis ultricies orci aliquet dictum. Mauris eget mollis ipsum. Maecenas blandit semper massa, nec malesuada lacus scelerisque vel.</div>
+            </div>
+            <div className="flex items-center justify-start text-justify space-x-4 md:space-x-6">
+              <div className="flex justify-center items-center w-[40px] h-[40px] text-[20px] md:w-[60px] md:h-[60px] md:text-[26px] rounded-full bg-sky-950 text-white font-extrabold">2</div>
+              <div className="text-base md:text-[20px] text-black flex-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis ultricies orci aliquet dictum. Mauris eget mollis ipsum. Maecenas blandit semper massa, nec malesuada lacus scelerisque vel.</div>
+            </div>
+            <div className="flex items-center justify-start text-justify space-x-4 md:space-x-6">
+              <div className="flex justify-center items-center w-[40px] h-[40px] text-[20px] md:w-[60px] md:h-[60px] md:text-[26px] rounded-full bg-sky-950 text-white font-extrabold">3</div>
+              <div className="text-base md:text-[20px] text-black flex-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis ultricies orci aliquet dictum. Mauris eget mollis ipsum. Maecenas blandit semper massa, nec malesuada lacus scelerisque vel.</div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
