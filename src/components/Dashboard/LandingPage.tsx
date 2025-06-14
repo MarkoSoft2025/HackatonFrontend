@@ -31,7 +31,7 @@ const LandingPage: React.FC = () => {
 
       <div className="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10">
         <div className="relative flex flex-col items-center w-full px-8 lg:px-40 py-12 bg-white min-h-screen">
-          <div className="text-[30px] md:text-[50px] font-bold text-center text-black leading-9 lg:leading-10">
+          <div className="text-[30px] md:text-[50px] font-bold text-center text-black mt-5 leading-9 lg:leading-10">
             Online Attendance Process
           </div>
 
@@ -80,6 +80,46 @@ const LandingPage: React.FC = () => {
               <div className="text-base md:text-[20px] text-black flex-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis ultricies orci aliquet dictum. Mauris eget mollis ipsum. Maecenas blandit semper massa, nec malesuada lacus scelerisque vel.</div>
             </div>
           </div>
+
+          <footer className="w-full py-12 bg-white border-t border-gray-300 mt-6">
+            <div className="flex flex-col lg:flex-row justify-between items-start md:items-center px-8 space-y-8 md:space-y-0">
+              <div className="flex flex-col items-center w-full">
+                <img alt="UEP Logo" className="w-32 h-32" src="/images/logo/UEP-Logo.png" />
+                <p className="text-sky-950 font-bold text-center mt-2">
+                  UNIVERSITY OF EASTERN PHILIPPINES
+                </p>
+              </div>
+              <div className="text-center md:text-left w-full space-y-5 md:space-y-10">
+                <h3 className="text-[30px] text-center font-bold text-black">
+                  Contact Us
+                </h3>
+                <p className="text-black text-center leading-6 mt-2">
+                  University Town, Northern Samar, Philippines
+                  <br />
+                  ✉️ uepnsofficial@gmail.com
+                </p>
+              </div>
+              <div className="text-center w-full space-y-7">
+                <h3 className="text-[30px] text-center font-bold text-black">
+                  Quick Links
+                </h3>
+                <ul className="mt-2 text-center space-y-2 leading-4">
+                  <li>
+                    <a href="#" className="text-sky-950 hover:underline">Enrollment</a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-sky-950 hover:underline">Scholarships</a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-sky-950 hover:underline">Payment Portal</a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-sky-950 hover:underline">Quick Links</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </footer>
         </div>
       </div>
     </>
