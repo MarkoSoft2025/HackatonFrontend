@@ -335,14 +335,14 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
       >
         {/* <!-- SIDEBAR HEADER --> */}
         <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
-          <Link href="/" className="flex items-center font-bold text-white text-lg gap-2">
+          <Link href="/" className="flex items-center font-bold text-bodydark2 text-lg gap-2">
             <Image
               width={65}
               height={50}
-              src={"/images/logo/UEP Logo.png"}
+              src={"/images/logo/8klogo.png"}
               alt="Logo"
               priority
-            />UEP Attendance Monitoring
+            />8KCREATIVESTUDIO
           </Link>
 
           <button
