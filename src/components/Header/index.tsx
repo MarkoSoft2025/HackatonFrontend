@@ -10,8 +10,13 @@ const Header = (props: {
   setSidebarOpen: (arg0: boolean) => void;
 }) => {
   return (
+<<<<<<< HEAD
     <header className="sticky top-0 z-999 flex w-full bg-[#D9D9D9] drop-shadow-1 dark:bg-boxdark dark:drop-shadow-none">
       <div className="flex flex-grow items-center justify-between px-4 py-4 shadow-2 md:px-6 2xl:px-11">
+=======
+    <header className="sticky top-0 z-999 flex w-full bg-bodydark1 drop-shadow-1 dark:bg-boxdark dark:drop-shadow-none">
+      <div className="flex flex-grow h-7.5 items-center justify-between px-4 py-7.5 shadow-2 md:px-6 2xl:px-11">
+>>>>>>> 2e30fd31de1a7ee16bcbcff51f20f43ad8504b5c
         <div className="flex items-center gap-2 sm:gap-4 lg:hidden">
           {/* <!-- Hamburger Toggle BTN --> */}
           <button
@@ -20,7 +25,7 @@ const Header = (props: {
               e.stopPropagation();
               props.setSidebarOpen(!props.sidebarOpen);
             }}
-            className="z-99999 block rounded-sm border border-stroke bg-white p-1.5 shadow-sm dark:border-strokedark dark:bg-boxdark lg:hidden"
+            className="z-99999 block rounded-sm border border-stroke bg-bodydark1 p-1.5 shadow-sm dark:border-strokedark dark:bg-boxdark lg:hidden"
           >
             <span className="relative block h-5.5 w-5.5 cursor-pointer">
               <span className="du-block absolute right-0 h-full w-full">
@@ -55,6 +60,7 @@ const Header = (props: {
             </span>
           </button>
           {/* <!-- Hamburger Toggle BTN --> */}
+<<<<<<< HEAD
 
           <Link className="block flex-shrink-0 lg:hidden" href="/">
             <Image
@@ -120,6 +126,8 @@ const Header = (props: {
           {/* <!-- User Area --> */}
           <DropdownUser />
           {/* <!-- User Area --> */}
+=======
+>>>>>>> 2e30fd31de1a7ee16bcbcff51f20f43ad8504b5c
         </div>
       </div>
     </header>
